@@ -19,6 +19,31 @@ print ("Jutalék bruttó:",juti+afa,"Ft")
 print ("Ingatlan értéke a becsült m² ár alapján:",m2ar*m2,"Ft")
 """
 
+#Számológép_alap
+"""
+print("Kérem az első számot:")
+szam1 = float(input())
+
+print("Kérem az második számot:")
+szam2 = float(input())
+
+print("Válassza ki a műveletet (+, -, *, /):")
+muvelet = input()
+
+if muvelet == "+":
+  eredmeny = szam1 + szam2
+elif muvelet == "-":
+  eredmeny = szam1 - szam2
+elif muvelet == "*":
+  eredmeny = szam1 * szam2
+elif muvelet == "/":
+  eredmeny = szam1 / szam2
+else:
+  print("Hibás művelet!")
+
+print("Eredmény: ", eredmeny)
+"""
+
 #Euro FT váltó
 """
 arfolyam=(input ("Kérem adja meg az aktuális napi árfolyamot:"))
@@ -27,3 +52,5 @@ mennyiseg=(input ("Kérem adja meg, mennyi ft-ot szeretne átváltani:"))
 mennyiseg=int(mennyiseg)
 print (mennyiseg,'-Ft \n Összesen:',arfolyam*mennyiseg,'€')
 """
+
+
